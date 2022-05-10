@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444;
+}
+
+a:hover {
+    color: #444;
+    border-bottom: 1px dotted;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.cp {
+    cursor: pointer
+}
+html,body{
+    height: 100%;
+}
+p {
+    margin-bottom: 0px;
+    width: 100%;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
+
+}
+.hid{
+    display: none;
+}
+.top-mar{
+    margin-top: 15px;
+}
+.h-100{
+    height: 100%;;
+}
+::placeholder {
+    color: #747f8a !important;
+    font-size: 13px;
+    opacity: .5 !important;
+}
+.container-fluid{
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Times New Roman;
+    font-size: 27px;
+}
+strong{
+	font-family: Times New Roman;
+}
+body{
+    background-color:#fafafa !important;
+    font-family: Time New Roman;
+   	color: #6A6A6A;
+   	overflow-x: hidden;
+	
+}
+
+.bg-login{
+    background-image: url(https://wallpaperaccess.com/full/5591829.jpg);
+    min-height: 100%;
+    background-size: 100%;
+    padding: 20px;
+}
+.login-card{
+    background-color: #fff;
+    float: none;
+    margin: auto;
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    margin-top: 8%;
+    margin-bottom: 5%;
+    
+}
+.detail-part{
+    background-image: url(https://wallpaperaccess.com/full/5591829.jpg);
+    padding: 30px;
+    background-size: 100%;
+   	
+}
+.detail-part h1{
+    color: #fff;
+}
+.detail-part p{
+    color: #fff;
+    margin-top: 150px;
+}
+.logn-part{
+    padding: 30px;
+}
+.logo-cover img{
+    margin-bottom: -30px;
+}
+.form-cover h6{
+    margin-bottom: 30px;
+}
+.form-cover input{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #cccccc38;
+}
+.form-footer .forget-paswd{
+    text-align: left;
+}
+.button-div{
+    text-align: right;
+}
+.form-footer{
+    margin-bottom: 50px;
+}
+.button-div .btn{
+    background-color: #e60000 !important;
+    border-color: #28a745 !important;
+   	width : 334px;
+   	margin-top: -60px;
+}
+.button-div .btn:hover{
+    background-color: #0036e6 !important;
+    border-color: rgb(128, 255, 255) !important;
+}
+
+a:hover {
+	color: #0036e6;
+}

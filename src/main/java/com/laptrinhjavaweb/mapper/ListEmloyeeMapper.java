@@ -1,0 +1,43 @@
+package com.laptrinhjavaweb.mapper;
+
+import java.sql.ResultSet;
+
+import com.laptrinhjavaweb.dto.ListEmployeeDTO;
+
+public class ListEmloyeeMapper implements RowMapper<ListEmployeeDTO> {
+
+	@Override
+	public ListEmployeeDTO mapRow(ResultSet resultSet) {
+		try {
+			ListEmployeeDTO emloyee = new ListEmployeeDTO();
+			emloyee.setId(resultSet.getLong("id"));
+			emloyee.setFullname(resultSet.getString("fullname"));
+			emloyee.setBirthday(resultSet.getString("birthday"));
+			emloyee.setGender(resultSet.getString("gender"));
+			emloyee.setPayrate_id(resultSet.getLong("payrate_id"));
+			emloyee.setAddress(resultSet.getString("address"));
+			emloyee.setPhone(resultSet.getString("phone"));
+			emloyee.setEmail(resultSet.getString("email"));
+			emloyee.setEthnicity(resultSet.getString("ethnicity"));
+			emloyee.setExperience(resultSet.getString("experience"));
+			emloyee.setPassport(resultSet.getString("passport"));
+			emloyee.setOvertime(resultSet.getInt("overtime"));
+			emloyee.setSubsidize(resultSet.getLong("subsidize"));
+			emloyee.setWorkingdays(resultSet.getInt("workingdays"));
+			emloyee.setNumberdayoff(resultSet.getInt("numberdayoff"));
+			emloyee.setSalaryofficial(resultSet.getString("salaryofficial"));
+			emloyee.setCreateddate(resultSet.getTimestamp("createddate"));
+			emloyee.setCreatedby(resultSet.getString("createdby"));
+			try {
+				emloyee.setNamepay(resultSet.getString("namepay"));
+				emloyee.setSalarybasic(resultSet.getLong("salarybasic"));
+			} catch (Exception e) {
+			}
+			return emloyee;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}
