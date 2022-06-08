@@ -1,3 +1,3 @@
-User truy cập trang web demo: 
+User truy cập trang website demo: websitehrm.herokuapp.com
 uername: managerwebsite
 pass: 123456
